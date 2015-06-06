@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/ActionBar.Solid.TaskKeeper</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <!-- ActionBar style -->
+    <style name="ActionBar.Solid.Sunshine"
+        parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/task_keeper_blue</item>
+    </style>
+
+</resources>

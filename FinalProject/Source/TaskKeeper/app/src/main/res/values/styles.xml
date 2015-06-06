@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/ActionBar.Solid.TaskKeeper</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="ActionBar.Solid.TaskKeeper"
+        parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/task_keeper_blue</item>
+    </style>
+
+    <style name="TaskListStyle"></style>
+</resources>

@@ -1,0 +1,137 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/task_keeper_white"
+    tools:context="gyri.taskkeeper.DetailActivity$DetailFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="4.2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/task_top_layout">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="DummyTitle"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:background="@color/task_keeper_greenshade"
+            android:fontFamily="sans-serif"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_weight="0.5"
+            android:id="@+id/task_title_detail" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/task_description_detail"
+            android:text="DummyDescription"
+            android:fontFamily="sans-serif"
+            android:layout_margin="10dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/task_timeleft_detail"
+            android:text="DummytimeLeft"
+            android:fontFamily="sans-serif"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_margin="10dp"
+            android:layout_weight="0.7"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Point"
+            android:layout_margin="10dp"
+            android:background="@color/task_keeper_greenshade"
+            android:fontFamily="sans-serif"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_weight="0.3"/>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.7"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Dummystrtdate"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/task_keeper_green"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:id="@+id/task_start_date_detail" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Dummystarttime"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/task_keeper_green"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:id="@+id/task_start_time_detail" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Finishing Point"
+            android:layout_margin="10dp"
+            android:background="@color/task_keeper_greenshade"
+            android:fontFamily="sans-serif"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_weight="0.3"/>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.7"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Dummystopdate"
+                android:gravity="center"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/task_keeper_red"
+                android:id="@+id/task_stop_date_detail"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Dummystoptime"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/task_keeper_red"
+                android:gravity="center"
+                android:id="@+id/task_stop_time_detail"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

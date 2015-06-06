@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="task_keeper_white">#ffffff</color>
+    <color name="grey">#cccccc</color>
+    <color name="custom_light_blue">#ff64c2f4</color>
+    <color name="task_keeper_blue">#ff1ca8f4</color>
+    <color name="task_keeper_black">#000000</color>
+    <color name="task_keeper_red">#ff0000</color>
+    <color name="task_keeper_greenshade">#99FF99</color>
+    <color name="task_keeper_green">#00ff00</color>
+</resources>
